@@ -35,9 +35,6 @@ int _atoi(char *s)
 		c++;
 	}
 
-	c++;
-	}
-
 	ni *= min;
 	return (ni);
 }
