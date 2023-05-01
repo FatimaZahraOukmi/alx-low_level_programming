@@ -4,8 +4,8 @@
 #include <stddef.h>
 /**
  * struct listint_s - singly linked list
- * @n: int
- * @next: points to the next 
+ * @n: integer
+ * @next: points to the next node
  *
  * Description: singly linked list node structure
  *
@@ -33,4 +33,4 @@ size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 int _putchar(char c);
 
-#endif /*MAIN.H*/
+#endif /*LISTS_H , main.h */
