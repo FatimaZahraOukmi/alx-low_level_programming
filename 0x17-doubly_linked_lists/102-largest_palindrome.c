@@ -7,6 +7,7 @@
  * Return: 1 if the number is a palindrome, 0 otherwise
  */
 
+/* Check if a number is a palindrome */
 int is_palindrome(int num)
 {
 	int reversed = 0;
@@ -28,6 +29,7 @@ int is_palindrome(int num)
  *
  * Return: Always 0
  */
+/* Entry point of the program */
 
 int main(void)
 {
@@ -47,6 +49,7 @@ int main(void)
 	}
 
 	/* Save the result 906609 in the file "102-result"*/
+
 	FILE *file = fopen("102-result", "w");
 
 	fprintf(file, "%d", largest_palindrome);
