@@ -52,6 +52,12 @@ int main(void)
 
 	FILE *file = fopen("102-result", "w");
 
+	if (file == NULL)
+	{
+		printf("Error opening file\n");
+		return (1);
+	}
+
 	fprintf(file, "%d", largest_palindrome);
 	fclose(file);
 
